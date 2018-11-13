@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{%load staticfiles%}
+<title>Photo Gallery</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Elected Member">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{%static 'styles/bootstrap4/bootstrap.min.css'%}">
+<link href="{%static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css'%}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{%static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css'%}">
+<link rel="stylesheet" type="text/css" href="{%static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css'%}">
+<link rel="stylesheet" type="text/css" href="{%static 'plugins/OwlCarousel2-2.2.1/animate.css'%}">
+<link rel="stylesheet" type="text/css" href="{%static 'styles/news.css'%}">
+<link rel="stylesheet" type="text/css" href="{%static 'styles/news_responsive.css'%}">
+<link rel="stylesheet" type="text/css" href="{%static 'styles/services.css'%}">
+<link rel="stylesheet" type="text/css" href="{%static 'styles/services_responsive.css'%}">
+	<style>
+
+.dropbtn {
+
+
+    font-size: 16px;
+    background-color: #f5f3f0;
+}
+
+.dropdown {
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f3f0;
+    min-width: 250px;
+
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+	</style>
+</head>
+<body style="background-image:url({%static 'images/new_year_background.png'%});">
+<form name="home" action="#" method="POST">
+{% csrf_token %}
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header trans_200">
+
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+
+							<div class="top_bar_item" style="color:#FFFFFF; height: 15px; width: 600px; margin-left: 1px; font-size:200%; font-family: Bookman; right:230px">{% if request.session.lang == "en" %}Saravali Grampanchayat under SHIVSENA{% else %}सरावली ग्रामपंचायत{% endif %}</div>
+
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Content -->
+
+
+		<!--<div class="logo_container_outer">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="logo_container" style="height: 75px; width: 75px; background-image:url({%static 'images/logo.jpg'%});">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+	</header>
+
+
+	<!-- Home -->
+
+
+
+	<!-- Services -->
+
+	<div class="services">
+		<div class="container">
+
+			<div class="row services_row">
+				<!--<h3>{% if request.session.lang  == "en" %}Photo1 {% else %}ग्रामपंचायती तर्फे राबवले जाणारे विविध कार्यक्रम{% endif %}</h3><br><br><br>-->
+                <table class="image col-lg-5">
+					<tr>
+						<th><img src="{%static 'images/photo3.jpg'%}" style="width:1100px; padding-bottom:0.5em;"></th>
+
+					</tr>
+					<tr>
+                        <td class="caption"><h4 style="font-family: Arial Black">{% if request.session.lang  == "en" %}Photo1{% else %}सरपंच आणि उप सरपंच चार्जेस घेताना{% endif %}</h4></td>
+
+					</tr>
+				</table>
+
+				<table class="image col-lg-5">
+					<tr>
+						<th><img src="{%static 'images/photo1.jpg'%}" style="width:800px; padding-bottom:0.5em; padding-top:45px; height:600px"></th>
+
+					</tr>
+					<tr>
+                        <td class="caption"><h4 style="font-family: Arial Black">{% if request.session.lang  == "en" %}Photo2{% else %}मा. सरपंचा कडून ग्रामपंचायती मध्ये कर्मचाऱ्यांना त्यांच्या वाढदिवसा दिवशी एक रोप देण्याचा उपक्रम सुरू केला{% endif %}</h4></td>
+
+					</tr>
+				</table>
+
+
+                <table class="image col-lg-5">
+					<tr>
+						<th><img src="{%static 'images/photo2.jpg'%}" style="width:555px; padding-bottom:0.5em; padding-top:45px; padding-right:45px; height:1000px"></th>
+                        <th><img src="{%static 'images/photo4.jpg'%}" style="width:555px; padding-bottom:0.5em; padding-top:45px; padding-right:11px; height:1000px"></th>
+
+					</tr>
+					<tr>
+                        <td class="caption"><h4 style="font-family: Arial Black">{% if request.session.lang  == "en" %}Photo3{% else %}झेंडावंदन करताना ग्रामपंचायत कार्यालय{% endif %}</h4></td>
+                        <td class="caption"><h4 style="font-family: Arial Black">{% if request.session.lang  == "en" %}Photo4{% else %}वृक्षारोपण{% endif %}</h4></td>
+
+					</tr>
+				</table>
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="copyright_content d-flex flex-lg-row flex-column align-items-lg-center justify-content-start">
+							<div class="cr">Copyright © 2018 Saravali GramPanchayat Site is designed and maintained by Neoteric Technologies, Boisar</div>
+							<div style="padding-left: 222px;"><a href="#" target="_blank">Link1</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">Link2</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">Link3</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">Link4</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="{%static 'js/jquery-3.2.1.min.js'%}"></script>
+<script src="{%static 'styles/bootstrap4/popper.js'%}"></script>
+<script src="{%static 'styles/bootstrap4/bootstrap.min.js'%}"></script>
+<script src="{%static 'plugins/easing/easing.js'%}"></script>
+<script src="{%static 'plugins/parallax-js-master/parallax.min.js'%}"></script>
+</form>
+</body>
+</html>
