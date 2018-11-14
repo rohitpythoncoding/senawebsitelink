@@ -25,7 +25,7 @@ SECRET_KEY = '@g_me8tat2&)3!-^**tp$7t@=u$r3=&j(tev6i=%o&uxt#tums'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['b6x62pxn8f.execute-api.ap-south-1.amazonaws.com', '127.0.0.1']
 
 
 # Application definition
@@ -73,11 +73,12 @@ WSGI_APPLICATION = 'senalink.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
+import tempfile
+temp = tempfile.gettempdir()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(temp, 'db.sqlite3'),
     }
 }
 
