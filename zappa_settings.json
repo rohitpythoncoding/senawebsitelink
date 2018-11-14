@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "aws_region": "ap-south-1",
+        "django_settings": "senalink.settings",
+        "profile_name": "default",
+        "project_name": "senalink",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-o2voe5sq2"
+    }
+}
