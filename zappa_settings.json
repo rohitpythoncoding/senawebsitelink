@@ -5,6 +5,7 @@
         "profile_name": "default",
         "project_name": "senalink",
         "runtime": "python3.6",
-        "s3_bucket": "zappa-o2voe5sq2"
+        "s3_bucket": "zappa-o2voe5sq2",
+        "cors": true
     }
 }
