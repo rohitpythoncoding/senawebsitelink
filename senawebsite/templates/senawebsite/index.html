@@ -55,6 +55,25 @@
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 	</style>
 </head>
 <body style="background-image:url('https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/skulls.png');">
@@ -95,43 +114,29 @@
 
 			<div class="row services_row">
 				<!--<h3>{% if request.session.lang  == "en" %}Different Events organised/Celebrated By Saravali Grampanchayat {% else %}ग्रामपंचायती तर्फे राबवले जाणारे विविध कार्यक्रम{% endif %}</h3><br><br><br>-->
-                <table class="image col-lg-5">
-					<tr>
-						<th><img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo3.jpg" style="width:1100px; padding-bottom:0.5em;"></th>
-
-					</tr>
-					<tr>
-                        <td class="caption"><h4 style="font-family: Arial Black">{% if request.session.lang  == "en" %}Sarpanch and Deputy-Sarpanch Taking Their Seats{% else %}सरपंच आणि उप सरपंच चार्जेस घेताना{% endif %}</h4></td>
-
-					</tr>
-				</table>
-
-				<table class="image col-lg-5">
-					<tr>
-						<th><img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo1.jpg" style="width:800px; padding-bottom:0.5em; padding-top:45px; height:600px"></th>
-
-					</tr>
-					<tr>
-                        <td class="caption"><h4 style="font-family: Arial Black">{% if request.session.lang  == "en" %}Sarpanch has started new scheme of giving plant to grampanchayat workers on their birthday{% else %}मा. सरपंचा कडून ग्रामपंचायती मध्ये कर्मचाऱ्यांना त्यांच्या वाढदिवसा दिवशी एक रोप देण्याचा उपक्रम सुरू केला{% endif %}</h4></td>
-
-					</tr>
-				</table>
-
-
-                <table class="image col-lg-5">
-					<tr>
-						<th><img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo2.jpg" style="width:555px; padding-bottom:0.5em; padding-top:45px; padding-right:45px; height:1000px"></th>
-                        <th><img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo4.jpg" style="width:555px; padding-bottom:0.5em; padding-top:45px; padding-right:11px; height:1000px"></th>
-
-					</tr>
-					<tr>
-                        <td class="caption"><h4 style="font-family: Arial Black">{% if request.session.lang  == "en" %}Grampanchayat Celebrating Flag Hosting{% else %}झेंडावंदन करताना ग्रामपंचायत कार्यालय{% endif %}</h4></td>
-                        <td class="caption"><h4 style="font-family: Arial Black">{% if request.session.lang  == "en" %}Plantation{% else %}वृक्षारोपण{% endif %}</h4></td>
-
-					</tr>
-				</table>
-
-
+                <div class="row1">
+  					<div class="column">
+						<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo3.jpg" alt="Snow" style="width:100%">
+						<div>wofbwfbwubvfuwibcwc</div>
+  					</div>
+  					<div class="column">
+   		 				<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo1.jpg" alt="Forest" style="width:100%">
+  					</div>
+  					<div class="column">
+    					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo3.jpg" alt="Mountains" style="width:100%">
+  					</div>
+				</div>
+				<div class="row1">
+  					<div class="column">
+						<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo3.jpg" alt="Snow" style="width:100%">
+  					</div>
+  					<div class="column">
+   		 				<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo1.jpg" alt="Forest" style="width:100%">
+  					</div>
+  					<div class="column">
+    					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/photo3.jpg" alt="Mountains" style="width:100%">
+  					</div>
+				</div>
 			</div>
 		</div>
 	</div>
