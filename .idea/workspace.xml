@@ -2,120 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c7ed2ef-0ffc-4170-972f-f14499ab64d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gravel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/home_image_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/home_image_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/new_year_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/oriental.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photo1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photo2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photo3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photo4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/skulls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/tanta.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/vintage-concrete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.video.play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/isotope/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/backtotop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/contact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/elements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/gmaps.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/isotope/cells-by-row.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/isotope/isotope.pkgd.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/isotope/min/scripts-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/isotope/packery-mode.pkgd.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/isotope/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-1.12.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.counterup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.localScroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.scrollTo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/news.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/waypoints.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/wow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/easing/easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/greensock/ScrollToPlugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/greensock/TimelineMax.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/greensock/TweenMax.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/greensock/animation.gsap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/parallax-js-master/parallax.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/progressbar/progressbar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/scrollmagic/ScrollMagic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/bootstrap4/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/bootstrap4/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/bootstrap4/popper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/news.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/news_responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/services.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/services_responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/senalink.iml" afterPath="$PROJECT_DIR$/.idea/senalink.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/isotope/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gravel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/home_image_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/home_image_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/new_year_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/oriental.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/photo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/photo2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/photo3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/photo4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/skulls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tanta.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/vintage-concrete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/backtotop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/contact.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/elements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/gmaps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/isotope/cells-by-row.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/isotope/isotope.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/isotope/min/scripts-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/isotope/packery-mode.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/isotope/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery-1.12.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.counterup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.localScroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.scrollTo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/news.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/easing/easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/greensock/ScrollToPlugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/greensock/TimelineMax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/greensock/TweenMax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/greensock/animation.gsap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/parallax-js-master/parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/progressbar/progressbar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/scrollmagic/ScrollMagic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/styles/bootstrap4/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/styles/bootstrap4/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/styles/bootstrap4/popper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/styles/news.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/styles/news_responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/styles/services.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/styles/services_responsive.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/senawebsite/templates/senawebsite/index.html" afterPath="$PROJECT_DIR$/senawebsite/templates/senawebsite/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -163,8 +162,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/senawebsite/templates/senawebsite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="174" column="54" lean-forward="false" selection-start-line="174" selection-start-column="54" selection-end-line="174" selection-end-column="54" />
+            <state relative-caret-position="-765">
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -268,19 +267,6 @@
             <path>
               <item name="senalink" type="b2602c69:ProjectViewProjectNode" />
               <item name="senalink" type="462c0819:PsiDirectoryNode" />
-              <item name="senawebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="senalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="senalink" type="462c0819:PsiDirectoryNode" />
-              <item name="senawebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="senalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="senalink" type="462c0819:PsiDirectoryNode" />
-              <item name="senawebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="senawebsite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -681,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/senawebsite/templates/senawebsite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="174" column="54" lean-forward="false" selection-start-line="174" selection-start-column="54" selection-end-line="174" selection-end-column="54" />
+        <state relative-caret-position="-765">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
