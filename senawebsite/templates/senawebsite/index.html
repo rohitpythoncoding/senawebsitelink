@@ -72,12 +72,17 @@
 
 .column1 {
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
 }
 .column2 {
   float: left;
-  width: 40%;
+  width: 50%;
+  padding: 5px;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
   padding: 5px;
 }
 /* Clear floats after image containers */
@@ -88,7 +93,7 @@
 }
 	</style>
 </head>
-<body style="background-image:url('https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/light-grey-terrazzo.png');">
+<body style="background-image:url('https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/003-subtle-light-pattern-background-texture-vol5.jpg');">
 <form name="home" action="#" method="POST">
 {% csrf_token %}
 
@@ -114,6 +119,17 @@
 				</div>
 			</div>
 		</div>
+		<div class="logo_container_outer">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="logo_container" style="height: 75px; width: 200px; background-image:url('https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/ss.jpg');">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 
@@ -126,7 +142,7 @@
 
 			<div class="row services_row">
 				<!--<h3>{% if request.session.lang  == "en" %}Different Events organised/Celebrated By Saravali Grampanchayat {% else %}ग्रामपंचायती तर्फे राबवले जाणारे विविध कार्यक्रम{% endif %}</h3><br><br><br>-->
-                <div class="row1" style="padding-top: 60px;">
+                <div class="row1" style="padding-top: 40px;">
   					<div class="column">
 						<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/bal.jpg" alt="Snow" style="width:100%">
 
@@ -134,63 +150,86 @@
 
   					<div class="column">
    		 				<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/uddhav.jpg" style="width:100%">
-						<div><img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/shivsena.jpg" alt="Snow" style="width:203%; padding-top:5px; height:215px;"></div>
+
   					</div>
   					<div class="column">
     					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/aaditya.jpg"  style="width:100%">
   					</div>
 					<div class="column">
-    					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/aanand.jpg"  style="width:100%">
-  					</div>
-					<div class="column">
     					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/Eknath.jpg"  style="width:100%; padding-bottom:5px;">
 
   					</div>
+					<div class="column">
+    					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/aanand.jpg"  style="width:100%">
+  					</div>
+
+
 				</div>
-				<div style="padding-top:10px; padding-bottom:10px;"><b>फेब्रुवारी २०१७ मध्ये घेण्यात आलेल्या ग्रामपंचायत निवडणुकीमध्ये शिवसेनेने घवघवीत यश मिळवले. शिवसेनेचे निर्विवाद वर्चस्व स्थापन झाले. १६ पैकी १२ तसेच थेट लोकांमधून सरपंच बहुमताने निवडून सरावली ग्रामपंचायतीवर भगवा फडकवला.</b></div>
+				<div style="padding-top:10px; padding-bottom:10px;"><b>फेब्रुवारी २०१७ मध्ये घेण्यात आलेल्या ग्रामपंचायत निवडणुकीमध्ये शिवसेनेने घवघवीत यश मिळवले. शिवसेनेचे निर्विवाद वर्चस्व स्थापन झाले. १६ पैकी १२ तसेच थेट लोकांमधून सरपंच बहुमताने निवडून सरावली ग्रामपंचायतीवर भगवा फडकवला. या विजयाचे शिल्पकार प्रभाकर भाई राऊळ आणि जगदीश भाऊ धोडी आहेत.</b></div>
 				<div class="row1">
 
 
   					<div class="column2">
+
 						<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/bhai.jpg" style="width:100%; padding-bottom:5px;">
 						<div><b>प्रभाकर रामचंद्र राऊळ ( भाई )</b></div>
 						<div>(पालघर लोकसभा संघटक)</div>
   					</div>
 
 					<div class="column2">
+
     					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/jagdishDhodi.jpg"  style="width:100%; padding-bottom:5px;">
 						<div><b>जगदीश भगवान धोडी ( भाऊ )</b></div>
 						<div>(कोंकण पाटबंधारे विकास महामंडळ उपाध्यक्ष)</div>
   					</div>
 
 				</div>
-				<div>
+				<div class="row1">
 
-					<div class="column1">
-    					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/ashokSalunkhe.jpg" style="width:100%; padding-bottom:5px;">
+  					<div class="column3">
+						<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/ashokSalunkhe.jpg" style="width:250px; height:300px; padding-bottom:5px;">
 						<div><b>अशोक साळुंखे</b></div>
 						<div>(शिवसेना सरावली शहरप्रमुख)</div>
   					</div>
 
+					<div class="column3">
+    					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/newPerson.jpg"  style="padding-right:10px; width:250px; padding-bottom:5px;">
+						<div><b>नीलम संखे</b></div>
+						<div>(पालघर तालुका संघटक)</div>
+  					</div>
+					<div class="column3">
+    					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/newPerson2.jpg"  style="padding-right:5px; width:250px; padding-bottom:5px;">
+						<div><b>मुकेश पाटिल</b></div>
+						<div>(बोईसर शहर अध्यक्ष)</div>
+  					</div>
+
+
+				</div>
+				<div>
+				<div class="row1">
+
   					<div class="column1">
-   		 				<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/sarpanch1.jpg" style="width:100%; padding-bottom:5px;">
+   		 				<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/sarpanch1.jpg" style="width:222px; height:233px; padding-bottom:5px;">
 						<div><b>लक्ष्मी जनार्दन चांदणे</b></div>
 						<div>(सरपंच)</div>
 
   					</div>
   					<div class="column1">
-    					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/deputySarpanch2.jpg"  style="width:100%; padding-bottom:5px;">
+    					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/deputySarpanch2.jpg"  style="width:222px; height:233px; padding-bottom:5px;">
 						<div><b>स्मिता रुपेश राऊत</b></div>
 						<div>(उप सरपंच)</div>
   					</div>
 
 				</div>
 				<div>
-					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/members.jpg"  style="width:100%; padding-top:10px; padding-bottom:5px;">
+					<!--<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/mem2.jpg"  style="width:100%; padding-top:10px; padding-bottom:5px;">-->
+					<img src="https://s3.ap-south-1.amazonaws.com/grampanchayat/static/images/mem1.jpg"  style="width:100%; padding-top:10px; padding-bottom:5px;">
 					<div><b>निवडूण आलेले इतर सदस्य</b></div>
+				</div>
 				</div>
 
 			</div>
+
 		</div>
 	</div>
 
